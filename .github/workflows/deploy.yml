@@ -20,10 +20,14 @@ jobs:
           key: ${{ secrets.AWS_PRIVATE_KEY }}
           script: |
             cd fastapi-book-project
+
+            # Stash any local changes and pull the latest code
             git stash
             git pull origin main
             
             # Stop existing containers
             docker-compose down || true
             docker-compose up -d --build
+            
+            # Verify running containers
             docker ps
