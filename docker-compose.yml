@@ -8,7 +8,7 @@ services:
     networks:
       - app_network
 
-  nginx:  # <-- This must be properly indented under `services:`
+  nginx:
     image: nginx:alpine
     container_name: fastapi_nginx
     restart: always
