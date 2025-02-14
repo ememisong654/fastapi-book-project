@@ -122,13 +122,13 @@ pytest
 
 ## Deployment
 
-Prerequisites
+### Prerequisites
 
-AWS Account
-EC2 Instance (Ubuntu 22.04 LTS)
-Domain Name (optional)
-SSH Key Pair
-Deployment Steps
+- AWS Account
+- EC2 Instance (Ubuntu 22.04 LTS)
+- Domain Name (optional)
+- SSH Key Pair
+- Deployment Steps
 
 Set up EC2 Instance
 
