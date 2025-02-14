@@ -120,6 +120,24 @@ Available genres:
 pytest
 ```
 
+## Deployment
+
+Prerequisites
+
+AWS Account
+EC2 Instance (Ubuntu 22.04 LTS)
+Domain Name (optional)
+SSH Key Pair
+Deployment Steps
+
+Set up EC2 Instance
+
+Launch an EC2 instance with Ubuntu 22.04 LTS
+Configure Security Group to allow:
+HTTP (80)
+HTTPS (443)
+SSH (22)
+
 ## Error Handling
 
 The API includes proper error handling for:
